@@ -23,6 +23,15 @@ class Student extends Person{
     set fee(value){
         this._fee = value;
     }
+
+    // overrideed method
+    print(){
+        super.print();
+        console.log(`Subjects: ${this._subjects.join(", ")}, Fee: ${this._fee}`);
+    }
+
+
+
 }
 
 

@@ -24,9 +24,12 @@ class Teacher extends Person {
         this.subject = value;
     }
 
-    // print(){
-    //     console.log('ClassName = Teacher, ' + this + '');
-    // }
+
+    // overrideed method
+      print(){
+        super.print();
+        console.log(`Subject: ${this._subject}, Salary: ${this._salary}`);
+    }
 
 
     // toString(){

@@ -27,7 +27,7 @@ class Person {
 
 
     print(){
-        console.log('ClassName = Person, ' + this + '');
+        console.log(this + '');
     }
 
 
