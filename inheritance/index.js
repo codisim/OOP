@@ -41,5 +41,8 @@ t.print();
 
 
 
+
+
+
 // console.log(t instanceof Person);
 // console.log(t instanceof Teacher);
