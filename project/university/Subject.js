@@ -32,8 +32,8 @@ class Subject {
   toString() {
     return `
             ID: ${this[_id]}, 
-            Name: ${this[_name]}, 
-            Credit: ${this[credit]}`;
+              Name: ${this[_name]}, 
+              Credit: ${this[_credit]}`;
   }
 }
 
