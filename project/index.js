@@ -86,8 +86,12 @@ dept.addTeacher(teacher2);
 
 
 student.department.teachers.forEach((teacher, i) => {
-  console.log(`${i + 1}. ${teacher.name}`);
+  // console.log(`${i + 1}. ${teacher.name}`);
 });
+
+
+
+guardian.addChildren(student);
 
 
 
