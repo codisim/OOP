@@ -1,7 +1,9 @@
+const Person = require('./Person');
 
-
-class Teacher {
-    constructor(subject, salary){
+class Teacher extends Person {
+    
+    constructor(name, email, subject, salary){
+        super(name, email);
         this._subject = subject;
         this._salary = salary;
     }
@@ -22,14 +24,14 @@ class Teacher {
         this.subject = value;
     }
 
-    print(){
-        console.log('ClassName = Teacher, ' + this + '');
-    }
+    // print(){
+    //     console.log('ClassName = Teacher, ' + this + '');
+    // }
 
 
-    toString(){
-        return `Subject: ${this._subject}, Salary: ${this._salary}`;
-    }
+    // toString(){
+    //     return `Subject: ${this._subject}, Salary: ${this._salary}`;
+    // }
     
 }
 
