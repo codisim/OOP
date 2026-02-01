@@ -2,16 +2,16 @@
 const _id = Symbol('id');
 const _name = Symbol('name');
 const _subjects = Symbol('subjects');
-const _chairman = Symbol('chairman');
+const _head = Symbol('head');
 const _teachers = Symbol('teachers');
 
 
 class Department {
-    constructor({ id, name, subjects, chairman, teachers }) {
+    constructor({ id, name, subjects, head, teachers }) {
         this[_id] = id;
         this[_name] = name;
         this[_subjects] = subjects || [];
-        this[_chairman] = chairman || null;
+        this[_head] = head || null;
         this[_teachers] = teachers || [];   
     }
 
@@ -35,12 +35,12 @@ class Department {
         this[_subjects] = subjects;
     }
 
-    get chairman() {
-        return this[_chairman];
+    get head() {
+        return this[_head];
     }
 
-    set chairman(chairman) {
-        this[_chairman] = chairman;
+    set head(head) {
+        this[_head] = head;
     }
 
     get teachers() {
@@ -60,7 +60,7 @@ class Department {
             ID: ${this[_id]}, 
             Name: ${this[_name]}, 
             Subjects: ${this[_subjects]}, 
-            Chairman: ${this[_chairman]}, 
+            head: ${this[_head]}, 
             Teachers: ${this[_teachers]}`;
     }
 }
