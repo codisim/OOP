@@ -3,7 +3,7 @@ const _name = Symbol("name");
 const _passMark = Symbol("passMark");
 const _subject = Symbol("subject");
 
-class Subject {
+class Exam {
   constructor(id, name, subject, passMark) {
     this[_id] = id;
     this[_name] = name;
@@ -47,4 +47,4 @@ class Subject {
   }
 }
 
-module.exports = Subject;
+module.exports = Exam;
