@@ -50,4 +50,4 @@ class Student extends UniPerson {
 }
 
 
-export default Student;
+module.exports = Student;

@@ -28,11 +28,10 @@ class UniPerson extends Person {
     }
 
     toString(){
-        super();
-        console.log(`Department: ${this[_department]}, Account: ${this[_account]}`);
+        return super.toString() + `Department: ${this[_department]}, Account: ${this[_account]}`;
     }
 
 }
 
 
-export default UniPerson;
+module.exports = UniPerson;
