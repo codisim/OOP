@@ -1,4 +1,4 @@
-import Person from "./Person";
+const Person = require("./Person");
 
 
 const _department = Symbol('department');

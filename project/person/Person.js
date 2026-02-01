@@ -44,7 +44,11 @@ class Person {
     }
 
     toString(){
-        return `Person [ID: ${this[_id]}, Name: ${this[_name]}, Blood: ${this[_blood]}, Contact: ${this[_contact]}]`;
+        return `
+            ID: ${this[_id]}, 
+            Name: ${this[_name]}, 
+            Blood: ${this[_blood]}, 
+            Contact: ${this[_contact]}`;
     }
 
 }

@@ -1,3 +1,4 @@
+const UniPerson = require("./UniPerson");
 
 
 const _studentID = Symbol("studentID");

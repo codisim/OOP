@@ -1,3 +1,4 @@
+const Person = require("./Person");
 
 const _profession = Symbol("profession");
 const _income = Symbol("income");
@@ -29,5 +30,7 @@ class Guardian extends Person {
         return `${super.toString()}, Profession: ${this[_profession]}, Income: ${this[_income]}`;
     }
 }
+
+
 
 module.exports = Guardian;

@@ -1,4 +1,4 @@
-
+const UniPerson = require("./UniPerson");
 
 const _employeeID = Symbol("_employeeID");
 const salary = Symbol("salary");
